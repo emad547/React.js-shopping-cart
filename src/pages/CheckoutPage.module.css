@@ -1,0 +1,27 @@
+.checkoutContainer {
+  display: flex;
+  justify-content: space-between;
+  min-height: 66vh;
+  margin: 2rem 0;
+}
+
+.basketProducts {
+  width: 72%;
+}
+
+.noProductContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noProductContainer svg {
+  font-size: 10rem;
+  color: #fe5d42;
+}
+
+.noProductContainer h2 {
+  color: #363636;
+}

@@ -1,0 +1,60 @@
+.card {
+  background-color: #fff;
+  border: 2px dashed #e2e2e2;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: #fe5d42;
+}
+
+.card img {
+  width: 230px;
+  height: 230px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.card > p {
+  margin: 20px 0 40px;
+  color: #666;
+  font-weight: 600;
+}
+
+.card svg {
+  color: #fe5d42;
+  font-size: 1.5rem;
+}
+
+.card .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions > *,
+.actions > * > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.actions button {
+  width: 30px;
+  height: 30px;
+  background-color: #fe5d42;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.actions button svg {
+  color: #fff;
+}
+
+.actions span {
+  margin: 0 8px;
+}

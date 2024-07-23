@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  min-height: 68vh;
+}
+
+.container > img {
+  flex-shrink: 0;
+  width: 250px;
+  height: 280px;
+  border: 2px dashed #fe5d42;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #fff;
+  margin-right: 50px;
+}
+
+.information {
+  border: 2px dashed #c0c0c0;
+  border-radius: 30px;
+  padding: 20px;
+  height: fit-content;
+}
+
+.title {
+  color: #fe5d42;
+}
+
+.description {
+  margin: 30px 0;
+}
+
+.category {
+  margin-bottom: 10px;
+}
+
+.category svg {
+  color: #fe5d42;
+}
+
+.information div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  line-height: 31px;
+}
+
+.price svg {
+  color: #fe5d42;
+}
+
+.information a {
+  display: flex;
+  align-items: center;
+  background-color: #fe5d42;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.information a svg {
+  margin-right: 10px;
+}

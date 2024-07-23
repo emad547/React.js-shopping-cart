@@ -1,0 +1,31 @@
+.sidebar {
+  width: 24%;
+  height: fit-content;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px dashed #fe5d42;
+}
+
+.sidebar p {
+  color: #fe5d42;
+}
+
+.sidebar p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.sidebar p span {
+  color: #787878;
+}
+
+.sidebar button {
+  width: 100%;
+  margin-top: 3rem;
+  background-color: #fe5d42;
+  color: #fff;
+  padding: 5px 0;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}

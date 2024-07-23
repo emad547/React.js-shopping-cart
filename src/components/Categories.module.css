@@ -1,0 +1,40 @@
+.sidebarContainer {
+  width: 220px;
+  height: fit-content;
+  background-color: #fff;
+  border: 2px dashed #e2e2e2;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 40px;
+}
+
+.sidebarTitle {
+  display: flex;
+  align-items: center;
+  color: #fe5d42;
+  margin-bottom: 15px;
+}
+
+.sidebarTitle svg {
+  margin-right: 10px;
+}
+
+.categoryList {
+  list-style: none;
+}
+
+.categoryList li {
+  transition: .2s;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.categoryList li:hover {
+  color: #fe5d42;
+}
+
+.selected {
+  color: #fe5d42;
+  background-color: #ffc6bc;
+}

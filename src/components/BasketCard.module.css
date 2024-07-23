@@ -1,0 +1,42 @@
+.basketCardContainer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px dashed silver;
+}
+
+.basketCardContainer:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.productImage {
+  width: 65px;
+  height: 70px;
+}
+
+.title {
+  display: inline-block;
+  width: 40%;
+  overflow: hidden;
+}
+
+.buttons button {
+  width: 30px;
+  height: 30px;
+  background-color: #fe5d42;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.buttons button svg {
+  color: #fff;
+}
+
+.buttons span {
+  margin: 0 8px;
+}
